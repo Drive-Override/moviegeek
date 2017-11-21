@@ -1,0 +1,24 @@
+{
+  "name": "moviegeek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Drive-Override/moviegeek.git"
+  },
+  "author": "Philipp Rost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/Drive-Override/moviegeek/issues"
+  },
+  "homepage": "https://gitlab.com/Drive-Override/moviegeek#README",
+  "scripts": {
+    "build": "",
+    "build:sass": "node-sass app/scss/ -o app/public/css",
+    "watch:sass": "node-sass -w app/scss/"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  }
+}
