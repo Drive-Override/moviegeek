@@ -1,0 +1,22 @@
+$padCard: 12px 18px;
+
+.card {
+  background: #fff;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  box-shadow: 2px 2px 2px 2px #eee;
+
+  // Card Sub Components
+  &-header {
+    padding: $padCard;
+  }
+
+  &-content {
+    padding: $padCard;
+  }
+
+  &-footer {
+    padding: $padCard;
+  }
+}

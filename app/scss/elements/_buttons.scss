@@ -1,0 +1,37 @@
+/* Button Structure */
+.btn {
+  display: inline-block;
+  vertical-align: center;
+  text-align: center;
+  margin: 10px 15px;
+  text-decoration: none;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+  -webkit-box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+  -moz-box-shadow:0 1px 3px rgba(0,0,0,0.3),inset 0 1px 0 rgba(250,250,250,0.4);
+  transition: background-color 0.2s ease-in;
+  cursor: pointer;
+
+  /* Button Sizing */
+  &-small {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+  &-large {
+    font-size: 24px;
+    padding: 10px 25px;
+  }
+
+  /* Button Style */
+  &-blue {
+    color: #fff;
+    background: #3498db;
+  }
+
+  &-blue:hover {
+    background: #2980b9;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
